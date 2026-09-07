@@ -1,0 +1,40 @@
+{
+	"aeropuertos": [
+		{
+			"nombre": "El Dorado",
+			"codigo": "BOG",
+			"nombreCiudad": "Bogotá",
+			"latitud": 4.7016,
+			"longitud": -74.1469
+		},
+		{
+			"nombre": "José María Córdova",
+			"codigo": "MDE",
+			"nombreCiudad": "Medellín",
+			"latitud": 6.1645,
+			"longitud": -75.4231
+		}
+	],
+	"aviones": [
+		{
+			"nombre": "HK-1234",
+			"capacidad": 150
+		}
+	],
+	"rutas": [
+		{
+			"codigoRuta": "4558",
+			"origen": "BOG",
+			"destino": "MDE",
+			"horaSalida": "0800",
+			"horaLlegada": "0900"
+		}
+	],
+	"vuelos": [
+		{
+			"codigoRuta": "4558",
+			"fecha": "2024-11-05",
+			"avion": "HK-1234"
+		}
+	]
+}
